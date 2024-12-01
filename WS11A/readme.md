@@ -1,10 +1,4 @@
-Sure! Here is a `README.md` file based on the tasks in the provided 
 
-index.html
-
- file:
-
-```markdown
 # Advanced CSS Features
 
 This project demonstrates advanced CSS features through a series of tasks. Each task focuses on a specific CSS property and its effects.
