@@ -1,10 +1,9 @@
-/* styles.css */
+/* lisää body elementtiin taustakuva */
 
 body {
   font-family: Arial, sans-serif;
   margin: 20px;
   background-color: #f4f4f4;
-  background-image: url("../images/taustakuva.webp");
 }
 
 .container {
@@ -77,45 +76,17 @@ footer {
 /* Media Queries */
 /* Task 1: Change Layout for Small Screens */
 @media (min-width: 600px) {
-  .container {
-    grid-template-areas:
-      "header header header"
-      "nav main aside"
-      "footer footer footer";
-  }
 }
-/* Task: Change Header Background Color for Different Screen Sizes */
+/* Task: Change Header Background Color for Different Screen Sizes - try also change body and footer elements appearance*/
 @media (max-width: 600px) {
-  header {
-    background-color: lightblue;
-  }
-  body {
-    background-image: none;
-  }
-  footer {
-    background-color: black;
-    color: white;
-  }
 }
-/* Change aside not visible and change background Color*/
+/* Change aside not visible and change Header background Color*/
 @media (min-width: 600px) and (max-width: 900px) {
-  aside {
-    display: none;
-  }
-  header {
-    background-color: lightgreen;
-  }
 }
-
+/* change Header backround color */
 @media (min-width: 900px) {
-  header {
-    background-color: lightcoral;
-  }
 }
 
-/* Task 2: Adjust Font Size for Large Screens */
+/* Task 2: Adjust Main element Font Size for Large Screens */
 @media (min-width: 1200px) {
-  main {
-    font-size: 1.5em;
-  }
 }

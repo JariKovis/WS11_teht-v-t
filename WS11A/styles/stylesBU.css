@@ -25,7 +25,7 @@ body {
   height: 200px;
   background-color: lightblue;
   margin: 20px;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 20px rgba(235, 93, 93, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,20 +74,4 @@ body {
   font-size: 1.2em;
 }
 
-/* styles.css */
-
-.hover-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  color: white;
-  background-color: #007bff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: box-shadow 0.3s ease, background-size 0.3s ease;
-}
-
-.hover-button:hover {
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
-  background-color: #01254b;
-}
+/* lisää tänne tehtävä 4 button muotoilut*/
